@@ -1405,4 +1405,11 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="wifi_ap_clients_title">Connected devices</string>
     <string name="wifi_ap_client_ap_disabled">Hotspot is disabled</string>
     <string name="wifi_ap_client_none_connected">No devices connected</string>
+
+    <!--Saber version-->
+    <string name="sm_android">Rom Toolchain Version</string>
+    <string name="sm_android_default">Unknown</string>
+    <string name="sm_arm">Kernel Toolchain Version</string>
+    <string name="sm_arm_default">Unknown</string>
+
 </resources>
