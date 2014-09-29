@@ -1442,4 +1442,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="profile_setup_setup_triggers_description">Please select triggers which will activate this profile</string>
     <string name="profile_setup_actions_description">Now configure what happens when the profile is activated</string>
 
+    <!--Saber version-->
+    <string name="sm_android">Rom Toolchain Version</string>
+    <string name="sm_android_default">Unknown</string>
+    <string name="sm_arm">Kernel Toolchain Version</string>
+    <string name="sm_arm_default">Unknown</string>
+
 </resources>
