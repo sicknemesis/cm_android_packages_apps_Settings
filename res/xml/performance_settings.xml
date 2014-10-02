@@ -33,7 +33,7 @@
             android:key="app_perf_profiles_enabled"
             android:title="@string/autoperf_title"
             android:summary="@string/autoperf_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory

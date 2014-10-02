@@ -1412,4 +1412,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="sm_arm">Kernel Toolchain Version</string>
     <string name="sm_arm_default">Unknown</string>
 
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">SuperSU</string>
 </resources>
