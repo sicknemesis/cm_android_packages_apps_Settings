@@ -763,17 +763,8 @@ public class Settings extends PreferenceActivity
                         target.remove(i);
                     }
                 }
-            } else if (id == R.id.development_settings
-                    || id == R.id.performance_settings) {
-                if (!showDev) {
-                    target.remove(i);
-                }
             } else if (id == R.id.account_add) {
                 if (um.hasUserRestriction(UserManager.DISALLOW_MODIFY_ACCOUNTS)) {
-                    target.remove(i);
-                }
-            } else if (id == R.id.superuser) {
-                if (!DevelopmentSettings.isRootForAppsEnabled()) {
                     target.remove(i);
                 }
             } else if (id == R.id.multi_sim_settings) {
@@ -782,6 +773,7 @@ public class Settings extends PreferenceActivity
             } else if (id == R.id.voice_wakeup_settings) {
                 if(!Utils.isPackageInstalled(this, VOICE_WAKEUP_PACKAGE_NAME)) {
                     target.remove(header);
+		}
             } else if (id == R.id.supersu_settings) {
                 // Embedding into Settings is supported from SuperSU v1.85 and up
                 boolean supported = false;
