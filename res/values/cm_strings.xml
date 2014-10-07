@@ -1431,7 +1431,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="sm_arm_default">Unknown</string>
 
     <!-- BUILD TWEAKS  -->
-    <string name="header_category_interface">RASTAKAT</string>
+    <string name="header_category_rasta">RASTAKAT LEGACY</string>
     <!-- System Interface settings  -->
     <string name="system_settings_title">Build Tweaks</string>
 
