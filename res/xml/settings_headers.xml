@@ -82,7 +82,7 @@
     
     <!-- BUILD TWEAKS START -->
     <header
-        android:title="@string/header_category_interface" />
+        android:title="@string/header_category_rasta" />
     <!-- System -->
     <header
         android:id="@+id/system_settings"
@@ -93,7 +93,7 @@
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
-        android:title="@string/header_category_rasta" />
+        android:title="@string/header_category_device" />
 
     <!-- Themes -->
     <header
